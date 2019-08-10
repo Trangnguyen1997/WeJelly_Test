@@ -1,23 +1,23 @@
-import React, { Fragment } from 'react';
-import { Route } from 'react-router-dom';
-import Header from '../components/Header';
+// import React, { Fragment } from 'react';
+// import { Route } from 'react-router-dom';
+// import Header from '../components/Header';
 
-const HomeLayout = ({ children, ...rest }) => {
-    return (
-        <Fragment>
-           <Header/>
-            {children}
-        </Fragment>
-    )
-}
-const HomeTemplate = ({ Component, ...rest }) => {
-    return <Route {...rest} render={(props) => {
+// const HomeLayout = ({ children, ...rest }) => {
+//     return (
+//         <Fragment>
+//            <Header/>
+//             {children}
+//         </Fragment>
+//     )
+// }
+// const HomeTemplate = ({ Component, ...rest }) => {
+//     return <Route {...rest} render={(props) => {
         
-        return (
-            <HomeLayout>
-                <Component {...props} />
-            </HomeLayout>
-        )
-    }} />
-}
-export default HomeTemplate;
+//         return (
+//             <HomeLayout>
+//                 <Component {...props} />
+//             </HomeLayout>
+//         )
+//     }} />
+// }
+// export default HomeTemplate;
