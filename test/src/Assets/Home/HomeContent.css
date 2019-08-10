@@ -1,0 +1,23 @@
+.HomeContent {
+  color: #3F3DA4; }
+  .HomeContent .homeContent_title {
+    text-align: center;
+    color: #009FDA; }
+  .HomeContent .homeContent_item .home_item_red {
+    color: #FF55AA; }
+  .HomeContent .khung {
+    position: relative; }
+  .HomeContent .suatam {
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 25px; }
+  .HomeContent ul .btn {
+    width: 350px;
+    height: 37px;
+    border-radius: 60px;
+    background-color: #009FEE;
+    color: white;
+    border: none;
+    font-weight: bold; }
+
+/*# sourceMappingURL=HomeContent.css.map */

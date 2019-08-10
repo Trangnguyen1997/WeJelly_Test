@@ -1,0 +1,26 @@
+.login {
+  background-color: #BAE7FF; }
+  .login .form-group {
+    margin-bottom: 28px; }
+    .login .form-group .form-control {
+      background-color: #94D8F7;
+      border-radius: 50px;
+      border: none;
+      padding-left: 30px;
+      font-weight: 10px; }
+    .login .form-group .form-control::placeholder {
+      color: #3F3DA4 !important; }
+    .login .form-group .btn {
+      width: 350px;
+      height: 37px;
+      border-radius: 60px;
+      background-color: #009FEE;
+      color: white;
+      border: none;
+      font-weight: bold; }
+    .login .form-group .btn:hover {
+      background-color: white;
+      color: #009FEE;
+      border: 1px solid #009FEE; }
+
+/*# sourceMappingURL=Login.css.map */

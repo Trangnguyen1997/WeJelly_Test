@@ -1,0 +1,52 @@
+.HomeContent{
+    color: #3F3DA4;
+    position: absolute;
+    top: 112px;
+.homeContent_title{
+    text-align: center;
+    color: #009FDA;
+    margin-left: 197px;
+    
+} 
+.homeContent_item{
+    margin-right: 55px;
+    margin-left: 250px;
+    .home_item_red{
+    color: #FF55AA;
+} 
+
+}
+.khung{
+    position: relative;
+    margin-left: 205px;
+}
+.suatam{
+    position: absolute;
+    margin-left: 387px;
+    margin-top: 25px;
+}
+.right{
+    margin-right: 50px;
+    margin-bottom: 100px;
+    ul li .home_item_red{
+        color: #FF55AA;
+    }
+    .home_item_title{
+        font-weight: bold;
+    }  .btn{
+        width: 350px;
+        height: 37px;
+        border-radius: 60px;
+        background-color: #009FEE;
+        color: white;
+        border: none;
+        font-weight: bold;
+    }
+    .btn:hover{
+        background-color: white;
+        color: #009FEE;
+        border: 1px solid #009FEE;
+    }
+   
+}
+}
